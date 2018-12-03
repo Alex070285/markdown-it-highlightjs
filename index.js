@@ -1,4 +1,8 @@
-const hljs = require('highlight.js')
+const hljs = require('highlight.js/lib/highlight')
+const javascript = require('highlight.js/lib/languages/javascript')
+const xml = require('highlight.js/lib/languages/xml')
+hljs.registerLanguage('javascript', javascript)
+hljs.registerLanguage('html', xml)
 
 const maybe = f => {
   try {
@@ -41,5 +45,4 @@ highlightjs.defaults = {
   auto: true,
   code: true
 }
-
 module.exports = highlightjs
