@@ -26,7 +26,7 @@
     "test": "npm run lint && node test"
   },
   "dependencies": {
-    "highlight.js": "^9.9.0",
+    "highlight.js": "^10.2.0",
     "lodash.flow": "^3.1.0"
   },
   "devDependencies": {
