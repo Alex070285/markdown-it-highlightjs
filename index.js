@@ -1,7 +1,9 @@
 const hljs = require("highlight.js/lib/core")
 const javascript = require('highlight.js/lib/languages/javascript')
+const css = require('highlight.js/lib/languages/css')
 const xml = require('highlight.js/lib/languages/xml')
 hljs.registerLanguage('javascript', javascript)
+hljs.registerLanguage('css', css)
 hljs.registerLanguage('html', xml)
 
 const maybe = f => {
