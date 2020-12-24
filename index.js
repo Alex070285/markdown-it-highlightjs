@@ -8,7 +8,7 @@ hljs.registerLanguage('javascript', javascript)
 hljs.registerLanguage('css', css)
 hljs.registerLanguage('html', xml)
 hljs.registerLanguage('json', json)
-hljs.registerLanguage('json', typescript)
+hljs.registerLanguage('typescript', typescript)
 
 const maybe = f => {
   try {
